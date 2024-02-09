@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Share Boost</title>
+      <title>Spamshare by Jazer Dmetriov</title>
    </head>
    <body>
       <div class="wrapper-container">
@@ -15,20 +15,21 @@
          <div class="form-wrapper">
             <form onsubmit="submitForm(event)" class="form-container">
                <div class="form-item">
-                  <label for="cookies">APPSTATE:</label>
+                  <label for="cookies">c3c fbstate:</label>
                   <input type="text" id="cookies" name="cookie" placeholder="">
                </div>
                <div class="form-item">
-                  <label for="urls">LINK:</label>
+                  <label for="urls">facebook link:</label>
                   <input type="text" id="urls" name="url" placeholder="">
                </div>
                <div class="form-item">
-                  <label for="amounts">LIMIT:</label>
+                  <label for="amounts">limit ex. 500:</label>
                   <input type="text" id="amounts" name="amount" placeholder="">
                </div>
                <div class="form-item">
-                  <label for="intervals">DELAY:</label>
+                  <label for="intervals">delay:</label>
                   <input type="text" id="intervals" name="interval" placeholder="" pattern="[0-9]*">
+                  <label for="intervals">min 0 default 1.1</label>
                </div>
                <div class="form-item">
                   <button type="submit" onclick="submitForm()" id="submit-button">Submit</button>
@@ -40,7 +41,7 @@
          </div>
          <div class="container" id="process-container">
             <h1>SHARE BOOST</h1>
-            <h4>PROCESSING:</h4>
+            <h4>processing:</h4>
             <div id="processing">
             </div>
          </div>
@@ -55,20 +56,20 @@
          margin: 0;
          }
          body {
-         padding: 20px;
+         padding: 30px;
          font-family: 'Poppins', sans-serif;
-         background: #000;
+         background: #ffff;
          color: #898989;
          display: flex;
          justify-content: center;
          align-items: center;
          }
          .container {
-         background-color: #0a0a0a;
+         background-color: #fff;
          border-radius: 10px;
          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-         padding: 20px;
-         margin: 20px auto;
+         padding: 50px;
+         margin: 30px auto;
          overflow: auto;
          }
          .form-item {
@@ -81,23 +82,23 @@
          font-size: 13px;
          color: #495057;
          margin-bottom: 5px; 
-         display: block; 
+         display: black; 
          }
          input, button {
-         background: #000;
-         color: #fff; 
+         background: #ffff;
+         color: #000; 
          border: solid 1px #222;
          box-sizing: border-box;
          width: 100%;
          margin-bottom: 10px;
-         padding: 10px;
-         border-radius: 4px;
+         padding: 15px;
+         border-radius: 9px;
          font-size: 16px;
          }
          button {
          cursor: none;
-         color: #0a0a0a;
-         background-color: #ededed;
+         color: #fff;
+         background-color: #0080FE;
          }
          button:hover {
          background: #CCC;
